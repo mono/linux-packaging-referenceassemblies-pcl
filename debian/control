@@ -1,0 +1,18 @@
+Source: referenceassemblies-pcl
+Section: non-free/cli-mono
+Priority: optional
+Maintainer: Jo Shields <jo.shields@xamarin.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.4
+Homepage: http://blogs.msdn.com/b/dotnet/archive/2013/10/14/portable-class-library-pcl-now-available-on-all-platforms.aspx
+
+Package: referenceassemblies-pcl
+Architecture: all
+Depends: mono-xbuild, ${shlibs:Depends}, ${misc:Depends}
+Description: Portable Library Reference Assemblies for .NET
+ The Portable Class Libraries (PCL) in .NET are powered by 
+ an API contract, referred to as the "PCL Reference Assemblies".
+ .
+ This allows tools like Xamarin Studio on Mac and Linux to 
+ produce portable libraries that can be used anywhere .NET or 
+ Mono are supported.
