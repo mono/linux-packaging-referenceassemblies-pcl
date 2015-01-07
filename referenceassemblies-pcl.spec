@@ -18,10 +18,10 @@
 
 
 Name:           referenceassemblies-pcl
-Version:        4.6
+Version:        2014.04.14
 Release:        0
 Url:            http://go-mono.org/
-Source0:	http://download.mono-project.com/repo/debian/pool/main/r/%{name}/%{name}_%{version}.orig.tar.xz
+Source0:	http://download.mono-project.com/repo/debian/pool/main/r/%{name}/%{name}_%{version}.orig.tar.bz2
 Source1:	EULA.rtf
 Summary:        PCL reference assemblies for .NET
 License:        EULA
@@ -41,9 +41,9 @@ cp %{SOURCE1} .
 
 %install
 %{__mkdir_p} %{buildroot}%{_prefix}/lib/mono/xbuild-frameworks/.NETPortable/
-cp -a v4.0 %{buildroot}%{_prefix}/lib/mono/xbuild-frameworks/.NETPortable/
-cp -a v4.5 %{buildroot}%{_prefix}/lib/mono/xbuild-frameworks/.NETPortable/
-cp -a v4.6 %{buildroot}%{_prefix}/lib/mono/xbuild-frameworks/.NETPortable/
+cp -a */v4.0 %{buildroot}%{_prefix}/lib/mono/xbuild-frameworks/.NETPortable/
+cp -a */v4.5 %{buildroot}%{_prefix}/lib/mono/xbuild-frameworks/.NETPortable/
+cp -a */v4.6 %{buildroot}%{_prefix}/lib/mono/xbuild-frameworks/.NETPortable/
 
 %files
 %defattr(-, root, root)
