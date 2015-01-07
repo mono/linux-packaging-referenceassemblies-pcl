@@ -6,4 +6,5 @@
     Family=".NETFramework"
     MinimumVisualStudioVersion="10.0"
     DisplayName=".NET Framework"
-    MinimumVersionDisplayName="4" />
+    MinimumVersionDisplayName="4"
+    PlatformArchitectures="AnyCPU;x86;x64" />

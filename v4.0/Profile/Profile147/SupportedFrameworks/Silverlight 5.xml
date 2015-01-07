@@ -6,4 +6,5 @@
     Family="Silverlight"
     MinimumVisualStudioVersion="10.0"
     DisplayName="Silverlight"
-    MinimumVersionDisplayName="5" />
+    MinimumVersionDisplayName="5"
+    PlatformArchitectures="AnyCPU" />
