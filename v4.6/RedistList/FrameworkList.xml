@@ -44,6 +44,8 @@
     <File AssemblyName="System.Runtime.Serialization.Json" Version="4.0.0.0" PublicKeyToken="b03f5f7f11d50a3a" Culture="neutral" ProcessorArchitecture="MSIL" InGac="true" />
     <File AssemblyName="System.Runtime.Serialization.Primitives" Version="4.0.0.0" PublicKeyToken="b03f5f7f11d50a3a" Culture="neutral" ProcessorArchitecture="MSIL" InGac="true" />
     <File AssemblyName="System.Runtime.Serialization.Xml" Version="4.0.0.0" PublicKeyToken="b03f5f7f11d50a3a" Culture="neutral" ProcessorArchitecture="MSIL" InGac="true" />
+    <File AssemblyName="System.Runtime.WindowsRuntime" Version="4.0.10.0" PublicKeyToken="b77a5c561934e089" Culture="neutral" ProcessorArchitecture="MSIL" InGac="true" />
+    <File AssemblyName="System.Runtime.WindowsRuntime.UI.Xaml" Version="4.0.0.0" PublicKeyToken="b77a5c561934e089" Culture="neutral" ProcessorArchitecture="MSIL" InGac="true" />
     <File AssemblyName="System.Security.Principal" Version="4.0.0.0" PublicKeyToken="b03f5f7f11d50a3a" Culture="neutral" ProcessorArchitecture="MSIL" InGac="true" />
     <File AssemblyName="System.ServiceModel" Version="4.0.0.0" PublicKeyToken="b77a5c561934e089" Culture="neutral" ProcessorArchitecture="MSIL" InGac="true" />
     <File AssemblyName="System.ServiceModel.Duplex" Version="4.0.0.0" PublicKeyToken="b03f5f7f11d50a3a" Culture="neutral" ProcessorArchitecture="MSIL" InGac="true" />
