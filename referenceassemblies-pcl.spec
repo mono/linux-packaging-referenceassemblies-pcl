@@ -19,7 +19,7 @@
 
 Name:           referenceassemblies-pcl
 Version:        2014.04.14
-Release:        0.xamarin.0
+Release:	0.xamarin.1
 Url:            http://go-mono.org/
 Source0:	http://download.mono-project.com/repo/debian/pool/main/r/%{name}/%{name}_%{version}.orig.tar.bz2
 Source1:	EULA.rtf
