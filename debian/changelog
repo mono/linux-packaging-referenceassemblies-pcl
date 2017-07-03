@@ -1,3 +1,9 @@
+referenceassemblies-pcl (2014.04.14-1xamarin2) alpha; urgency=medium
+
+  * Packaging bugfix:
+
+ -- Xamarin Public Jenkins (auto-signing) <releng@xamarin.com>  Mon, 03 Jul 2017 09:16:03 +0000
+
 referenceassemblies-pcl (2014.04.14-1xamarin1) alpha; urgency=medium
 
   * Packaging bugfix:
